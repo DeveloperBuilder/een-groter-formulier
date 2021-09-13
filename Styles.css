@@ -1,0 +1,116 @@
+body { 
+    color: red;
+    background-color: cornsilk;
+    font-size: 25px;
+}
+.vakantie{
+    font-size: 5px;
+}
+.WincTekst{
+    font-size: 25px;
+}
+.Waarom{
+    font-size: 20px;
+}
+.black-border {
+    border: 5px solid black;
+    padding: 10px;
+}
+h1.black-border {
+     color: rgba(255, 81, 0, 0.705);
+}
+h2 {
+    font-size: large;
+    text-decoration: underline;
+}
+.Enjoy {
+    border: 5px solid brown;
+    font-size: 30px;
+    line-height: 1.5em;
+}
+h1.Hoofdtekst {
+    font-size: 60px;
+    margin: auto;
+    width: fit-content;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 25px;
+    height: 50px;
+    padding-top: 1px;
+}
+.aboutBackground {
+    background-image: url("Mountain.jpg");
+    background-color: #cccccc;
+    margin: 50px 30px 50px 30px;
+}
+.indexBackground{
+    background-image: url("LakeMountain.jpg");
+    padding: 20px;
+}
+.coupon {
+	width: 210px;
+	padding: 10px;
+	text-align: center;
+	border: 3px dashed #ccc; 
+    position: relative; 
+    top: 240px;
+    background-color: rgba(0, 0, 0, 0.692);
+}
+ul.Inline li{
+    display: inline;
+    padding: 10px;
+    padding-left: 0px;
+}
+.Inline{
+    padding-left: 0px;
+}
+
+.Pic {
+    width:250px;
+}
+
+@media screen and (max-width:330px) {
+
+}
+
+@media screen and (min-width:768px) {
+    .Pic {
+        width:500px;
+    }
+    
+    body{
+    color: rgb(120, 120, 243);  
+    background-color: burlywood;
+    line-height: 2em;
+    font-size: 20px;
+  }
+  h1.Hoofdtekst {
+    font-size: 60px;
+    margin: auto;
+    width: fit-content;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 25px;
+    height: 20px;
+    padding-top: 20px;
+}
+
+.Enjoy {
+    border: 5px solid brown;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.coupon {
+	width: 210px;
+	padding: 10px;
+	text-align: center;
+	border: 3px dashed #ccc; 
+    position: relative; 
+    top: 400px;
+    background-color: rgba(0, 0, 0, 0.692);
+}
+.ContactTitle{
+    text-align: center;
+    font-size: 60px;
+}
